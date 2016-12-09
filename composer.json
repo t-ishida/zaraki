@@ -1,0 +1,22 @@
+{
+  "name": "t_ishida/Zaraki",
+  "description": "yet another Session manager",
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "Takeshi Ishida",
+      "email": "ishida@aainc.co.jp"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "Zaraki\\" : "src"
+    }
+  },
+  "require-dev": {
+    "phake/phake": "2.*",
+    "PHPUnit/phpunit": "*"
+  },
+  "require": {
+  }
+}
